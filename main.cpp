@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 #include "JobSearchSystem.h"
+#include "Job.h"
 #include "User.h"
 #include "Employer.h"
 #include "Candidate.h"
@@ -12,7 +13,14 @@ void Entrance();// פתיחה
 
 
 int main() {
-Entrance();// -----> Initial login to the system
+    Entrance();// -----> Initial login to the system
+//    Job a;
+//    a.addJob("sience","ashdod","20/09/23");
+//    a.addJob("siefvesce","ashdod","20/09/23");
+//    a.editJob("sience","avishag","ashdod","29/09/23");
+//    a.viewPublishedJobs();
+
+
 
 
 
